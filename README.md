@@ -24,4 +24,4 @@ TODOs:
 13. Use the intersection function to find the intersection of cRadSetOne and cRatSetTwo and store that intersection in cRatSetIntersection
 14. Print the set cRatSetIntersection (delineate as “INTERSECTION”) 
 15. Implement the function isIn in RationalSet
-16. Use the isIn function to check if the rational cRationalThree is in the set  cRatSetIntersection and print YES or No.  
+16. Use the isIn function to check if the rational cRationalThree is in the set  cRatSetIntersection and print YES or NO. 
