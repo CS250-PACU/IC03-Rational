@@ -7,10 +7,11 @@ Before you start, from Moodle 1) click on the link to clone the IC03-RationalSet
 
 TODOs:
 1. Create three RationalSet objects: cRatSetOne, cRatSetTwo, and cRatSetIntersection
-2. Create three Rational objects: cRationalOne with numerator 1 and denominator 100
-				         cRationalTwo with numerator 2 and denominator 400
-				         cRationalThree with numerator 3 and denominator 900
-				         cRationalFour with an unspecified numerator and denominator
+2. Create four Rational objects: 
+* cRationalOne with numerator 1 and denominator 100
+* cRationalTwo with numerator 2 and denominator 400
+* cRationalThree with numerator 3 and denominator 900
+* cRationalFour with an unspecified numerator and denominator
 3. Implement the function add in RationalSet
 4. Use the add function to add cRationalOne, cRationalTwo, and cRationalThree to the set cRatSetOne
 5. Implement the function multiply  in RationalSet
