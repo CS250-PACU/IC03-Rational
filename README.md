@@ -3,7 +3,7 @@
 **CS250 Intro to CSII\
 Practice on Sets**
 
-Before you start, within Moodle click on the link to clone the IC03-RationalSet starter repository and also download the IC03-RationalSetFiles zip from Moodle that contains RationalSet.cpp, RationalSet.h, and RationalSetDriver.cpp.  As described in lecture, create a new project RationalSet and incorporate these files into this project, making sure that the two projects are linked correctly.  
+Before you start, from Moodle 1) click on the link to clone the IC03-RationalSet starter repository and 2) download the IC03-RationalSetFiles zip from Moodle that contains RationalSet.cpp, RationalSet.h, and RationalSetDriver.cpp.  As described in lecture, create a new project RationalSet and incorporate these three files into this project, making sure that the two projects are linked correctly.  
 
 TODOs:
 1. Create three RationalSet objects: cRatSetOne, cRatSetTwo, and cRatSetIntersection
