@@ -1,3 +1,12 @@
+//*********************************************************************
+// File name:  RationalDriver.cpp
+// Author:     CS, Pacific University
+// Date:       2/13/23
+// Class:      CS250
+// Assignment: Rational
+// Purpose:    Test Driver for Rational
+//*********************************************************************
+
 #include <iostream>
 #include "Rational.h"
 
@@ -15,6 +24,4 @@ int main() {
 	cRational1.multiply(cRational2).write(cout);
 	cout << endl;
 
-
 	return EXIT_SUCCESS;
-}

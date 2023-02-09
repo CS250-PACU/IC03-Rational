@@ -1,25 +1,74 @@
+//*********************************************************************
+// File name:  Rational.h
+// Author:     CS, Pacific University
+// Date:       2/13/23
+// Class:      CS250
+// Assignment: RationalSet 
+// Purpose:    Implementation for Rational class 
+//*********************************************************************
+
 #include "Rational.h"
 
-Rational::Rational(int numerator, int denominator) {
+//*********************************************************************
+// Function:    Rational
+//
+// Description: constructor for a Rational number
+//
+// Parameters:  numerator - numerator for rational number
+//							denominator - denominator for the rational number
+//
+// Returned:    None
+//*********************************************************************
+
+Rational::Rational (int numerator, int denominator) {
 	if (numerator < 0 || denominator < 1) {
 		cout << "Error: Illegal Positive Rational Number" << endl;
-		exit(EXIT_FAILURE);
+		exit (EXIT_FAILURE);
 	}
 
 	mNumerator = numerator;
 	mDenominator = denominator;
 }
 
-bool Rational::equals(const Rational& rcRational) const {
+//*********************************************************************
+// Function:    equals
+//
+// Description: test if two rational numbers are equal
+//
+// Parameters:  rcRational - 
+//
+// Returned:    True if rationals numbers are equal, false if not
+//*********************************************************************
+
+bool Rational::equals (const Rational& rcRational) const {
 	return mNumerator == rcRational.mNumerator &&
 		mDenominator == rcRational.mDenominator;
 }
 
-void Rational::write(ostream& rcOutStream) const {
+//*********************************************************************
+// Function:    write
+//
+// Description: write the rational to the given rcOutStream
+//
+// Parameters:  rcOutStream - the stream to write to
+//
+// Returned:    None
+//*********************************************************************
+void Rational::write (ostream& rcOutStream) const {
 	rcOutStream << mNumerator << '/' << mDenominator;
 }
 
-Rational Rational::multiply(const Rational& rcRational) const {
+//*********************************************************************
+// Function:    multiply
+//
+// Description: multiplies two rational numbers
+//
+// Parameters:  rcRational - one of the Rational factors in the product					 
+//
+// Returned:    A Rational which is the product of the two rationals
+//*********************************************************************
+
+Rational Rational::multiply (const Rational& rcRational) const {
 	return Rational(mNumerator * rcRational.mNumerator,
 		mDenominator * rcRational.mDenominator);
 }
