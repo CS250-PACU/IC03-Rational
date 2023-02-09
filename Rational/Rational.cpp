@@ -12,10 +12,10 @@
 //*********************************************************************
 // Function:    Rational
 //
-// Description: constructor for a Rational number
+// Description: constructor for a Rational object
 //
-// Parameters:  numerator - numerator for rational number
-//							denominator - denominator for the rational number
+// Parameters:  numerator - numerator for rational object
+//							denominator - denominator for the rational object
 //
 // Returned:    None
 //*********************************************************************
@@ -37,7 +37,8 @@ Rational::Rational (int numerator, int denominator) {
 //
 // Parameters:  rcRational - 
 //
-// Returned:    True if rationals numbers are equal, false if not
+// Returned:    True if this object and rcRational are equal, 
+//							false if not
 //*********************************************************************
 
 bool Rational::equals (const Rational& rcRational) const {
@@ -65,7 +66,8 @@ void Rational::write (ostream& rcOutStream) const {
 //
 // Parameters:  rcRational - one of the Rational factors in the product					 
 //
-// Returned:    A Rational which is the product of the two rationals
+// Returned:    A Rational which is the product of the this object and
+//						  rcRational
 //*********************************************************************
 
 Rational Rational::multiply (const Rational& rcRational) const {

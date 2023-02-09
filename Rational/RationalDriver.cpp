@@ -4,7 +4,7 @@
 // Date:       2/13/23
 // Class:      CS250
 // Assignment: Rational
-// Purpose:    Test Driver for Rational
+// Purpose:    Test Driver for Rational class
 //*********************************************************************
 
 #include <iostream>
