@@ -5,6 +5,8 @@ Practice on Sets**
 
 Before you start, from Moodle 1) click on the link to clone the IC03-RationalSet starter repository and 2) download the IC03-RationalSetFiles zip from Moodle that contains RationalSet.cpp, RationalSet.h, and RationalSetDriver.cpp.  As described in lecture, create a new project RationalSet and incorporate these three files into this project, making sure that the two projects are linked correctly.  
 
+Also, as you implement each of the functions below, it will be helpful to comment out the yet-to-be -implemented functions both the .h and the .cpp so you can test each function separately.
+
 TODOs:
 1. Create three RationalSet objects: cRatSetOne, cRatSetTwo, and cRatSetIntersection
 2. Create four Rational objects: 
