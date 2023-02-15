@@ -17,11 +17,10 @@ TODOs:
 5. Use the multiply function from the Rational class to multiply cRationalOne and cRationalTwo and assign this product to cRationalFour
 6. Add cRationalFour to the set cRatSetOne
 7. Use the add function to add cRationalTwo, cRationalThree, and cRationalFour to the set cRatSetTwo
-8. Use the multiply function to multiply cRationalThree and cRationalOne and assign this to cRationalFour
-9. Implement the function print in RationalSet
-10. Use the print function to print the set cRatSetOne and cRatSetTwo (delineate these as "SET ONE" and "SET TWO")
-11. Implement the function intersection in RationalSet
-12. Use the intersection function to find the intersection of cRatSetOne and cRatSetTwo and store that intersection in cRatSetIntersection
-13. Print the set cRatSetIntersection (delineate as “INTERSECTION”) 
-14. Implement the function isIn in RationalSet
-15. Use the isIn function to check if the rational cRationalThree is in the set  cRatSetIntersection and print YES or NO. 
+8. Implement the function print in RationalSet (be sure to use the write function from the Rational class!)
+9. Use the print function to print the set cRatSetOne and cRatSetTwo (delineate these as "SET ONE" and "SET TWO")
+10. Implement the function intersection in RationalSet
+11. Use the intersection function to find the intersection of cRatSetOne and cRatSetTwo and store that intersection in cRatSetIntersection
+12. Print the set cRatSetIntersection (delineate as “INTERSECTION”) 
+13. Implement the function isIn in RationalSet
+14. Use the isIn function to check if the rational cRationalThree is in the set cRatSetIntersection and print YES or NO. 
