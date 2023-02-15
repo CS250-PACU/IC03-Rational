@@ -14,15 +14,14 @@ TODOs:
 * cRationalFour with an unspecified numerator and denominator
 3. Implement the function add in RationalSet
 4. Use the add function to add cRationalOne, cRationalTwo, and cRationalThree to the set cRatSetOne
-5. Implement the function multiply  in RationalSet
-6. Use the multiply function to multiply cRationalOne and cRationalTwo and assign this product to cRationalFour
-7. Add cRationalFour to the set cRatSetOne
-8. Use the add function to add cRationalTwo, CRationalOne, and cRationalThree to the setcRatSetTwo
-9. Use the multiply function to multiply cRationalThree and cRationalOne and assign this to cRationalFour
-10. Implement the function print in RationalSet
-11. Use the print function to print the set cRatSetOne and cRatSetTwo (delineate these as "SET ONE" and "SET TWO")
-12. Implement the function intersection in RationalSet
-13. Use the intersection function to find the intersection of cRadSetOne and cRatSetTwo and store that intersection in cRatSetIntersection
-14. Print the set cRatSetIntersection (delineate as “INTERSECTION”) 
-15. Implement the function isIn in RationalSet
-16. Use the isIn function to check if the rational cRationalThree is in the set  cRatSetIntersection and print YES or NO. 
+5. Use the multiply function from the Rational class to multiply cRationalOne and cRationalTwo and assign this product to cRationalFour
+6. Add cRationalFour to the set cRatSetOne
+7. Use the add function to add cRationalTwo, CRationalOne, and cRationalThree to the setcRatSetTwo
+8. Use the multiply function to multiply cRationalThree and cRationalOne and assign this to cRationalFour
+9. Implement the function print in RationalSet
+10. Use the print function to print the set cRatSetOne and cRatSetTwo (delineate these as "SET ONE" and "SET TWO")
+11. Implement the function intersection in RationalSet
+12. Use the intersection function to find the intersection of cRadSetOne and cRatSetTwo and store that intersection in cRatSetIntersection
+13. Print the set cRatSetIntersection (delineate as “INTERSECTION”) 
+14. Implement the function isIn in RationalSet
+15. Use the isIn function to check if the rational cRationalThree is in the set  cRatSetIntersection and print YES or NO. 
