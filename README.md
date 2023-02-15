@@ -16,7 +16,7 @@ TODOs:
 4. Use the add function to add cRationalOne, cRationalTwo, and cRationalThree to the set cRatSetOne
 5. Use the multiply function from the Rational class to multiply cRationalOne and cRationalTwo and assign this product to cRationalFour
 6. Add cRationalFour to the set cRatSetOne
-7. Use the add function to add cRationalTwo, CRationalOne, and cRationalThree to the setcRatSetTwo
+7. Use the add function to add cRationalTwo, cRationalOne, and cRationalThree to the setcRatSetTwo
 8. Use the multiply function to multiply cRationalThree and cRationalOne and assign this to cRationalFour
 9. Implement the function print in RationalSet
 10. Use the print function to print the set cRatSetOne and cRatSetTwo (delineate these as "SET ONE" and "SET TWO")
